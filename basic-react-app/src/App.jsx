@@ -4,10 +4,10 @@ import { Button } from './Button.jsx'
 
 function App() {
   return(
-    <div>
+    <>
       <Title></Title>
       <Button/>
-    </div>
+    </>
   )
 }
 
