@@ -1,16 +1,6 @@
 import './App.css'
-
-function Title(){
-  return(
-    <h1>Welcome to my React App</h1>
-  )
-}
-
-function Button(){
-  return(
-    <button>Hello World</button>
-  )
-}
+import Title from "./Title.jsx"
+import { Button } from './Button.jsx'
 
 function App() {
   return(
