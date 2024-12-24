@@ -3,6 +3,7 @@ import Title from "./Title.jsx"
 import { Button } from './Button.jsx'
 import Description from "./Description.jsx"
 import ProductTab from "./ProductTab.jsx"
+import MsgBox from "./MsgBox.jsx"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Description/>
       <ProductTab/>
       <Button/>
+      <MsgBox/>
     </>
   )
 }
