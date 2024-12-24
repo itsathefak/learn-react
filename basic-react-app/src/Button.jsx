@@ -1,6 +1,10 @@
+function printHello(){
+  console.log("Hello !")
+}
+
 function Button(){
     return(
-      <button>Buy Now</button>
+      <button onClick={printHello}>Buy Now</button>
     )
   }
 
