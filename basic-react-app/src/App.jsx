@@ -6,6 +6,7 @@ import ProductTab from "./ProductTab.jsx"
 import MsgBox from "./MsgBox.jsx"
 import Form from "./Form.jsx"
 import Count from "./Count.jsx"
+import LikeButton from "./LikeButton.jsx"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <MsgBox/>
       <Form></Form>
       <Count></Count>
+      <LikeButton></LikeButton>
     </>
   )
 }
