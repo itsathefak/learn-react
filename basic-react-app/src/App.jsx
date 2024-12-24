@@ -4,6 +4,7 @@ import Button from './Button.jsx'
 import Description from "./Description.jsx"
 import ProductTab from "./ProductTab.jsx"
 import MsgBox from "./MsgBox.jsx"
+import Form from "./Form.jsx"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ProductTab/>
       <Button/>
       <MsgBox/>
+      <Form></Form>
     </>
   )
 }
