@@ -5,6 +5,7 @@ import Description from "./Description.jsx"
 import ProductTab from "./ProductTab.jsx"
 import MsgBox from "./MsgBox.jsx"
 import Form from "./Form.jsx"
+import Count from "./Count.jsx"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Button/>
       <MsgBox/>
       <Form></Form>
+      <Count></Count>
     </>
   )
 }
