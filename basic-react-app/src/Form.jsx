@@ -1,13 +1,17 @@
-function handleFormSubmit(event){
-    event.preve
-    console.log("The form was submitted !")
-}
+import { useState } from "react"
 
-function Form(){
-    <form onSubmit={handleFormSubmit}>
-        <input placeholder="Enter" />
+export default function Form(){
+    let [fullName, setFullName] = useState("")
+
+    let handleOnChange = (event)=>{
+        setFullName(event.target.value)
+    }
+
+    return(
+    <form>
+        <input placeholder="Enter Your Full Name" type="text" value={fullName} onChange={handleOnChange}/>
         <button>Submit</button>
     </form>
+    )
 }
 
-export default Form;
