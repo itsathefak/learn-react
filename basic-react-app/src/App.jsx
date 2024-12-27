@@ -7,6 +7,8 @@ import MsgBox from "./MsgBox.jsx"
 import Count from "./Count.jsx"
 import LikeButton from "./LikeButton.jsx"
 import Form from "./Form.jsx"
+import Counter from "./Counter.jsx"
+
 
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
       <MsgBox/>
       <Count></Count>
       <LikeButton></LikeButton> */}
-      <Form/>
+      <Counter/>
     </>
   )
 }
